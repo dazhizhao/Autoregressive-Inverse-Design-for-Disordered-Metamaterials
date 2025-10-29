@@ -26,16 +26,7 @@
   <h3 align="center">Towards Autoregressive Inverse Design of Disordered Metamaterials for Target Nonlinear Response</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    Authors
   </p>
 </div>
 
@@ -46,8 +37,6 @@
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 An insight is that metamaterials derive their novel mechanical properties from their unique architectures. Recent studies show adding disorder can expand the design space, but designing such structures for target nonlinear responses presents a major challenge, primarily in ensuring structural connectivity. This study introduces a data-driven framework to solve this problem, which pair a generative autoregressive model for inverse design with a surrogate model for rapid forward prediction. The autoregressive model learns implicit connectivity rules from a large dataset and sequentially builds valid structures guided by a performance target. This method is demonstrated to successfully design disordered metamaterials with complex nonlinear properties on demand. An analysis of the model’s internal mechanism reveals its learned strategies for maintaining connectivity while approaching the target. This process involves a critical trade-off between design performance and structural integrity, which is controllable within this framework. The resulting method shows strong capabilities in both interpolation and extrapolation, generating novel designs that outperform examples from the training data. Overall, this work bridges the design of disordered metamaterials with the achievement of tailored nonlinear responses, opening a new path for creating high-performance functional materials.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -89,23 +78,6 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
