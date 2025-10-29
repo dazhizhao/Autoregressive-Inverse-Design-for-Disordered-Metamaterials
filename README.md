@@ -49,12 +49,12 @@ Clone this repository to your local machine, and install the dependencies.
   pip install -r requirements.txt
   ```
 
-### Usage
-#### Train
+## Usage
+### Train
 
-#### Test and Interference
+### Test and Interference
 
-### Citation
+## Citation
 If you find our work helpful for you, plz cite and have a star for us!
 ```bibtex
 @inproceedings{zhao2025ardisorder,
@@ -65,10 +65,10 @@ If you find our work helpful for you, plz cite and have a star for us!
 }
 ```
 
-### License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Acknowledgement
+## Acknowledgement
 We acknowledge the support from [Aerospace Engieerning and Applied Mechanics](https://aero-mech.tongji.edu.cn/), [Tongji University](https://www.tongji.edu.cn/) and the contributions of the open-source community.
 
 <!-- MARKDOWN LINKS & IMAGES -->
