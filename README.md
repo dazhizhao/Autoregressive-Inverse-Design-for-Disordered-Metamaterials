@@ -58,6 +58,7 @@ To train the autoregressive transformer model, run this code:
   python inverse.py
   ```
 #### Inference stage
+You can find the checkpoints we adopted in our paper in [Google Drive](https://drive.google.com/file/d/1Y51FmLvJPXxGFEZudxF8U85QQQTxxpRG/view?usp=drive_link) and carefully check the weight path `path_to_the_weight` below. </br>
 For inversely designing the target obtained from disorded structures, run this code:
 ```sh
   cd inverse
