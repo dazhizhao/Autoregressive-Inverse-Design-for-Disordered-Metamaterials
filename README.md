@@ -50,9 +50,25 @@ Clone this repository to your local machine, and install the dependencies.
   ```
 
 ## Usage
-### Train
-
-### Test and Interference
+### Autoregressive Transformer model inverse design
+#### Train stage
+To train the autoregressive transformer model, run this code:
+```sh
+  cd inverse
+  python inverse.py
+  ```
+#### Inference stage
+For inversely designing the target obtained from disorded structures, run this code:
+```sh
+  cd inverse
+  python post_process.py --ckpt_path path_to_the_weight --top_p 0.95 --temperature 1.0
+  ```
+For inversely designing the target obtained from periodic structures, run this code: 
+```sh
+  cd inverse
+  python post_process_base.py --ckpt_path path_to_the_weight --top_p 0.95 --temperature 1.0
+  ```
+### Fourier Neural Operator forward prediction
 
 ## Citation
 If you find our work helpful for you, plz cite and have a star for us! :blush:
