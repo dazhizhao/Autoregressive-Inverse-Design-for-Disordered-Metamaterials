@@ -52,7 +52,6 @@ Clone this repository to your local machine, and install the dependencies.
 ## Usage
 First of all, you can find the checkpoints/weight we adopted in our paper in [Google Drive](https://drive.google.com/file/d/1Y51FmLvJPXxGFEZudxF8U85QQQTxxpRG/view?usp=drive_link).
 ### Autoregressive Transformer model inverse design
-![AR][ar]
 #### Training stage
 To train the autoregressive transformer model, run this code:
 ```sh
@@ -72,19 +71,18 @@ For inversely designing the target obtained from periodic structures, run this c
   python post_process_base.py --ckpt_path path_to_the_weight --top_p 0.95 --temperature 1.0
   ```
 ### Fourier Neural Operator forward prediction
-![FNO][fno]
-#### Training stage
+#### Inference stage
 To train the forward Fourier Neural Operator, run this code:
 ```sh
-  cd inverse
-  python inverse.py
+  cd forward
+  python train_fno.py
   ```
 #### Validation stage
 Plz carefully check your own weight path `path_to_the_weight` below. </br>
 For forward predict the nonlinear response from certain structures, run this code:
 ```sh
-  cd inverse
-  python post_process.py --ckpt_path path_to_the_weight --top_p 0.95 --temperature 1.0
+  cd forward
+  python inference.py
   ```
 ## Citation
 If you find our work helpful for you, plz cite and have a star for us! :blush:
