@@ -45,8 +45,7 @@ An insight is that metamaterials derive their novel mechanical properties from t
 
 Clone this repository to your local machine, and install the dependencies.
   ```sh
-  git clone git@github.com:facebookresearch/vggt.git 
-  cd vggt
+  git clone git@github.com:dazhizhao/Autoregressive-Inverse-Design-for-Disordered-Metamaterials.git 
   pip install -r requirements.txt
   ```
 
@@ -57,7 +56,7 @@ Clone this repository to your local machine, and install the dependencies.
 
 ### Citation
 If you find our work helpful for you, plz cite and have a star for us!
-``bibtex
+```bibtex
 @inproceedings{zhao2025ardisorder,
   title={Towards Autoregressive Inverse Design of Disordered Metamaterials for Target Nonlinear Response},
   author={Zhao, Dazhi and Xiang, Yujie and Zhang, Peng and Tang, Keke},
