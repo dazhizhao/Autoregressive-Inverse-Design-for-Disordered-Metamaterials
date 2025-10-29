@@ -61,7 +61,7 @@ To train the autoregressive transformer model, run this code:
   ```
 #### Inference Stage
 Plz carefully check your own weight path `path_to_the_weight` below. </br>
-For inversely designing the target obtained from disorded structures, run this code:
+For inversely designing the target obtained from disordered structures, run this code:
 ```sh
   cd inverse
   python post_process.py --ckpt_path path_to_the_weight --top_p 0.95 --temperature 1.0
