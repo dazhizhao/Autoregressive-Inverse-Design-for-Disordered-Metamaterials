@@ -18,21 +18,12 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Forks][forks-shield]][forks-url]
-[![Issues][issues-shield]][issues-url]
-[![Unlicense License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/fig1_v2.png" alt="Logo" width="80" height="80">_v
-  </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Towards Autoregressive Inverse Design of Disordered Metamaterials for Target Nonlinear Response</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
@@ -50,20 +41,11 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Abstract
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+An insight is that metamaterials derive their novel mechanical properties from their unique architectures. Recent studies show adding disorder can expand the design space, but designing such structures for target nonlinear responses presents a major challenge, primarily in ensuring structural connectivity. This study introduces a data-driven framework to solve this problem, which pair a generative autoregressive model for inverse design with a surrogate model for rapid forward prediction. The autoregressive model learns implicit connectivity rules from a large dataset and sequentially builds valid structures guided by a performance target. This method is demonstrated to successfully design disordered metamaterials with complex nonlinear properties on demand. An analysis of the model’s internal mechanism reveals its learned strategies for maintaining connectivity while approaching the target. This process involves a critical trade-off between design performance and structural integrity, which is controllable within this framework. The resulting method shows strong capabilities in both interpolation and extrapolation, generating novel designs that outperform examples from the training data. Overall, this work bridges the design of disordered metamaterials with the achievement of tailored nonlinear responses, opening a new path for creating high-performance functional materials.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
