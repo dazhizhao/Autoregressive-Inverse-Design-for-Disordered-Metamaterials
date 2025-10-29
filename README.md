@@ -41,44 +41,27 @@ An insight is that metamaterials derive their novel mechanical properties from t
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+### Environment Setup
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Clone this repository to your local machine, and install the dependencies.
   ```sh
-  npm install npm@latest -g
+  git clone git@github.com:facebookresearch/vggt.git 
+  cd vggt
+  pip install -r requirements.txt
   ```
 
-### Installation
+### Usage
+#### Train
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+#### Test and Interference
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+### Citation
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
+### Acknowledgement
+We acknowledge the support from [Aerospace Engieerning and Applied Mechanics](https://aero-mech.tongji.edu.cn/), [Tongji University](https://www.tongji.edu.cn/) and the contributions of the open-source community.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
