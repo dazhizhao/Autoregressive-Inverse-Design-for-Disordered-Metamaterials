@@ -66,7 +66,7 @@ If you find our work helpful for you, plz cite and have a star for us!
 ```
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License, see the LICENSE file for details.
 
 ## Acknowledgement
 We acknowledge the support from [Aerospace Engieerning and Applied Mechanics](https://aero-mech.tongji.edu.cn/), [Tongji University](https://www.tongji.edu.cn/) and the contributions of the open-source community.
