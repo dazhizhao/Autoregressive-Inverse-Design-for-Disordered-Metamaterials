@@ -79,7 +79,6 @@ To train the forward Fourier Neural Operator, run this code:
   python train_fno.py
   ```
 #### Inference Stage
-Plz carefully check your own weight path `path_to_the_weight` below. </br>
 For forward predicting the nonlinear response from certain structures, run this code:
 ```sh
   cd forward
