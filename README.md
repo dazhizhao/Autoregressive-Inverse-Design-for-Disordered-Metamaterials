@@ -34,7 +34,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Abstract
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Product Name Screen Shot][product-screenshot]
 
 An insight is that metamaterials derive their novel mechanical properties from their unique architectures. Recent studies show adding disorder can expand the design space, but designing such structures for target nonlinear responses presents a major challenge, primarily in ensuring structural connectivity. This study introduces a data-driven framework to solve this problem, which pair a generative autoregressive model for inverse design with a surrogate model for rapid forward prediction. The autoregressive model learns implicit connectivity rules from a large dataset and sequentially builds valid structures guided by a performance target. This method is demonstrated to successfully design disordered metamaterials with complex nonlinear properties on demand. An analysis of the model’s internal mechanism reveals its learned strategies for maintaining connectivity while approaching the target. This process involves a critical trade-off between design performance and structural integrity, which is controllable within this framework. The resulting method shows strong capabilities in both interpolation and extrapolation, generating novel designs that outperform examples from the training data. Overall, this work bridges the design of disordered metamaterials with the achievement of tailored nonlinear responses, opening a new path for creating high-performance functional materials.
 
@@ -50,15 +50,17 @@ Clone this repository to your local machine, and install the dependencies.
   ```
 
 ## Usage
+First of all, you can find the checkpoints/weight we adopted in our paper in [Google Drive](https://drive.google.com/file/d/1Y51FmLvJPXxGFEZudxF8U85QQQTxxpRG/view?usp=drive_link).
 ### Autoregressive Transformer model inverse design
-#### Train stage
+![AR][ar]
+#### Training stage
 To train the autoregressive transformer model, run this code:
 ```sh
   cd inverse
   python inverse.py
   ```
 #### Inference stage
-You can find the checkpoints we adopted in our paper in [Google Drive](https://drive.google.com/file/d/1Y51FmLvJPXxGFEZudxF8U85QQQTxxpRG/view?usp=drive_link) and carefully check the weight path `path_to_the_weight` below. </br>
+Plz carefully check your own weight path `path_to_the_weight` below. </br>
 For inversely designing the target obtained from disorded structures, run this code:
 ```sh
   cd inverse
@@ -70,7 +72,20 @@ For inversely designing the target obtained from periodic structures, run this c
   python post_process_base.py --ckpt_path path_to_the_weight --top_p 0.95 --temperature 1.0
   ```
 ### Fourier Neural Operator forward prediction
-
+![FNO][fno]
+#### Training stage
+To train the forward Fourier Neural Operator, run this code:
+```sh
+  cd inverse
+  python inverse.py
+  ```
+#### Validation stage
+Plz carefully check your own weight path `path_to_the_weight` below. </br>
+For forward predict the nonlinear response from certain structures, run this code:
+```sh
+  cd inverse
+  python post_process.py --ckpt_path path_to_the_weight --top_p 0.95 --temperature 1.0
+  ```
 ## Citation
 If you find our work helpful for you, plz cite and have a star for us! :blush:
 ```bibtex
@@ -103,6 +118,8 @@ We acknowledge the support from [Aerospace Engieerning and Applied Mechanics](ht
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/fig1_v2.png
+[ar]: images/ar.png
+[fno]: images/fno.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
