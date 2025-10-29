@@ -52,14 +52,14 @@ Clone this repository to your local machine, and install the dependencies.
 You can find the all the dataset and checkpoints we adopted in this paper from [Google Drive](https://drive.google.com/file/d/1Y51FmLvJPXxGFEZudxF8U85QQQTxxpRG/view?usp=drive_link). </br>
 To remind you, our structures are stored through `.mat` format and nonlinear responses are stored through `.xlxs` format. Plz prepare the correct software/tool to open it.
 ## Usage
-### Autoregressive Transformer model inverse design
-#### Training stage
+### Autoregressive Transformer Model Inverse Design
+#### Training Stage
 To train the autoregressive transformer model, run this code:
 ```sh
   cd inverse
   python inverse.py
   ```
-#### Inference stage
+#### Inference Stage
 Plz carefully check your own weight path `path_to_the_weight` below. </br>
 For inversely designing the target obtained from disorded structures, run this code:
 ```sh
@@ -71,14 +71,14 @@ For inversely designing the target obtained from periodic structures, run this c
   cd inverse
   python post_process_base.py --ckpt_path path_to_the_weight --top_p 0.95 --temperature 1.0
   ```
-### Fourier Neural Operator forward prediction
-#### Inference stage
+### Fourier Neural Operator Forward Prediction
+#### Training Stage
 To train the forward Fourier Neural Operator, run this code:
 ```sh
   cd forward
   python train_fno.py
   ```
-#### Validation stage
+#### Inference Stage
 Plz carefully check your own weight path `path_to_the_weight` below. </br>
 For forward predicting the nonlinear response from certain structures, run this code:
 ```sh
