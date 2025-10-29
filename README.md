@@ -98,9 +98,6 @@ If you find our work helpful for you, plz cite and have a star for us! :blush:
 ## License
 This project is licensed under the MIT License, see the LICENSE file for details.
 
-## Acknowledgement
-We acknowledge the support from [Aerospace Engieerning and Applied Mechanics](https://aero-mech.tongji.edu.cn/), [Tongji University](https://www.tongji.edu.cn/).
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
