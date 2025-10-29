@@ -41,7 +41,7 @@ An insight is that metamaterials derive their novel mechanical properties from t
 
 
 <!-- GETTING STARTED -->
-### Environment Setup
+## Environment Setup
 
 Clone this repository to your local machine, and install the dependencies.
   ```sh
