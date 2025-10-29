@@ -49,8 +49,8 @@ Clone this repository to your local machine, and install the dependencies.
   pip install -r requirements.txt
   ```
 ## Dataset & Checkpoints
-You can find the all the dataset and checkpoints we adopted in this paper from [Google Drive](https://drive.google.com/file/d/1Y51FmLvJPXxGFEZudxF8U85QQQTxxpRG/view?usp=drive_link). </br>
-To remind you, our structures are stored through `.mat` format and nonlinear responses are stored through `.xlxs` format. Plz prepare the correct software/tool to open it.
+You can find the all the dataset and checkpoints we adopted in this paper from [Google Drive](https://drive.google.com/drive/folders/1lua95cX5zexfpzs-K3D9ZcxsPZSpGtCx?usp=drive_link). </br>
+To remind you, our metamaterial structures are stored through `.mat` format and nonlinear responses are stored through `.xlxs` format. Plz prepare the correct software/tool to open it.
 ## Usage
 ### Autoregressive Transformer Model Inverse Design
 #### Training Stage
