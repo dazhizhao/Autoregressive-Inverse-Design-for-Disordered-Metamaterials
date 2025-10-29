@@ -1,0 +1,29 @@
+model:
+  target: trans.GridTransformer
+  base_learning_rate: 1.0e-4
+  params:
+    cond_dim: 301
+    grid_size: [10, 10]
+    num_classes: 9
+    transformer_config:
+      target: mingpt.GPT
+      params:
+        vocab_size: 9
+        block_size: 102
+        n_layer: 8
+        n_head: 8
+        n_embd: 256
+
+data:
+  target: data_loader.InverseDataModule
+  params:
+    excel_path: "/openbayes/home/data/sum.xlsx"
+    json_path: "/openbayes/home/data/inverse_split.json"
+    mat_path: "/openbayes/home/data/ind_mat_all.mat"
+    batch_size: 16
+    num_workers: 4
+
+lightning:
+  trainer:
+    gpus: 0, 
+    max_epochs: 50
