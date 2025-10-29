@@ -23,7 +23,7 @@
 <br />
 <div align="center">
 
-  <h3 align="center">Towards Autoregressive Inverse Design of Disordered Metamaterials for Target Nonlinear Response</h3>
+  <h1 align="center">Towards Autoregressive Inverse Design of Disordered Metamaterials for Target Nonlinear Response</h1>
 
   <p align="center">
     Authors
