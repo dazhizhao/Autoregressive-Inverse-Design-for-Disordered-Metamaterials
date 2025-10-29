@@ -55,7 +55,7 @@ Clone this repository to your local machine, and install the dependencies.
 ### Test and Interference
 
 ## Citation
-If you find our work helpful for you, plz cite and have a star for us!
+If you find our work helpful for you, plz cite and have a star for us! :blush:
 ```bibtex
 @inproceedings{zhao2025ardisorder,
   title={Towards Autoregressive Inverse Design of Disordered Metamaterials for Target Nonlinear Response},
@@ -69,7 +69,7 @@ If you find our work helpful for you, plz cite and have a star for us!
 This project is licensed under the MIT License, see the LICENSE file for details.
 
 ## Acknowledgement
-We acknowledge the support from [Aerospace Engieerning and Applied Mechanics](https://aero-mech.tongji.edu.cn/), [Tongji University](https://www.tongji.edu.cn/) and the contributions of the open-source community.
+We acknowledge the support from [Aerospace Engieerning and Applied Mechanics](https://aero-mech.tongji.edu.cn/), [Tongji University](https://www.tongji.edu.cn/).
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
