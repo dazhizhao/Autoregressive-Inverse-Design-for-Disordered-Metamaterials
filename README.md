@@ -95,7 +95,7 @@ If you find our work helpful for you, plz cite and have a star for us! :blush:
   year={2025}
 }
 ```
-## Computational Resource
+## Compute Reporting
 We report that all training and inference procedures for both models were conducted on a single NVIDIA RTX 4090 (24GB) GPU with the platform [Openbayes](https://openbayes.com/).
 
 ## License
