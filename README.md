@@ -53,7 +53,7 @@ Clone this repository to your local machine, and install the dependencies.
 You can find the all the dataset and checkpoints we adopted in this paper from [Google Drive](https://drive.google.com/drive/folders/1lua95cX5zexfpzs-K3D9ZcxsPZSpGtCx?usp=drive_link). </br>
 To remind you, our metamaterial structures are stored through `.mat` format and nonlinear responses are stored through `.xlxs` format. Plz prepare the correct software/tool to open it.
 ## Usage
-### Autoregressive Transformer Model Inverse Design
+### Autoregressive Transformer Model for Inverse Design
 If you wanna see more details about the autoregressive process, play the gif below:
 ![video][ar]
 #### Training Stage
@@ -74,7 +74,7 @@ For inversely designing the target obtained from periodic structures, run this c
   cd inverse
   python post_process_base.py --ckpt_path path_to_the_weight --top_p 0.95 --temperature 1.0
   ```
-### Fourier Neural Operator Forward Prediction
+### Fourier Neural Operator for Forward Prediction
 #### Training Stage
 To train the forward Fourier Neural Operator, run this code:
 ```sh
