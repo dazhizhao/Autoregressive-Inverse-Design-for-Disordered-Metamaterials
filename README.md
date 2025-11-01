@@ -54,6 +54,8 @@ You can find the all the dataset and checkpoints we adopted in this paper from [
 To remind you, our metamaterial structures are stored through `.mat` format and nonlinear responses are stored through `.xlxs` format. Plz prepare the correct software/tool to open it.
 ## Usage
 ### Autoregressive Transformer Model Inverse Design
+If you wanna see more details about the autoregressive process, play the gif below:
+![video][ar]
 #### Training Stage
 To train the autoregressive transformer model, run this code:
 ```sh
@@ -116,7 +118,7 @@ This project is licensed under the MIT License, see the LICENSE file for details
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/fig1_v2.png
-[ar]: images/ar.png
+[ar]: images/video.gif
 [fno]: images/fno.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
