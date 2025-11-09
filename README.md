@@ -30,7 +30,7 @@
 <sup>1</sup><em>School of Aerospace Engineering and Applied Mechanics, Tongji University, Shanghai 200092, China</em> </br>
 <sup>2</sup><em>Key Laboratory of AI-aided Airworthiness of Civil Aircraft Structures, Civil Aviation Administration of China, Tongji University, Shanghai 200092, China</em> </br>
 <sup>3</sup><em>School of ECAM, University of Georgia, Athens, GA 30602, USA</em> </br>
-<sup>*</sup>Corresponding author: [kktang@tongji.edu.cn](kktang@tongji.edu.cn) (Keke Tang)
+<sup>*</sup>Corresponding author: <a href="mailto:kktang@tongji.edu.cn">kktang@tongji.edu.cn</a> (Keke Tang)
 
   </p>
 </div>
