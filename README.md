@@ -26,7 +26,7 @@
   <h1 align="center">Autoregressive Inverse Design of Disordered Metamaterials for Target Nonlinear Response</h1>
 
   <p align="center">
-    Dazhi Zhao<sup>1</sup>, Yujie Xiang<sup>1</sup>, Peng Zhang<sup>1</sup>, Ning Liu<sup>1*</sup>, Xianqiao Wang<sup>3*</sup>, Keke Tang<sup>1,2*</sup> </br>
+    Dazhi Zhao<sup>1</sup>, Yujie Xiang<sup>1</sup>, Peng Zhang<sup>1</sup>, Ning Liu<sup>1</sup>, Xianqiao Wang<sup>3</sup>, Keke Tang<sup>1,2*</sup> </br>
 <sup>1</sup>School of Aerospace Engineering and Applied Mechanics, Tongji University, Shanghai 200092, China </br>
 <sup>2</sup>Key Laboratory of AI-aided Airworthiness of Civil Aircraft Structures, Civil Aviation Administration of China, Tongji University, Shanghai 200092, China </br>
 <sup>3</sup>School of ECAM, University of Georgia, Athens, GA 30602, USA </br>
