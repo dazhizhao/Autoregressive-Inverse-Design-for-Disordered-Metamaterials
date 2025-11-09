@@ -23,10 +23,15 @@
 <br />
 <div align="center">
 
-  <h1 align="center">Towards Autoregressive Inverse Design of Disordered Metamaterials for Target Nonlinear Response</h1>
+  <h1 align="center">Autoregressive Inverse Design of Disordered Metamaterials for Target Nonlinear Response</h1>
 
   <p align="center">
-    Authors
+    Dazhi Zhao<sup>1</sup>, Yujie Xiang<sup>1</sup>, Peng Zhang<sup>1</sup>, Ning Liu<sup>1*</sup>, Xianqiao Wang<sup>3*</sup>, Keke Tang<sup>1,2*</sup> </br>
+<sup>1</sup>School of Aerospace Engineering and Applied Mechanics, Tongji University, Shanghai 200092, China </br>
+<sup>2</sup>Key Laboratory of AI-aided Airworthiness of Civil Aircraft Structures, Civil Aviation Administration of China, Tongji University, Shanghai 200092, China </br>
+<sup>3</sup>School of ECAM, University of Georgia, Athens, GA 30602, USA </br>
+<sup>*</sup>Corresponding author: kktang@tongji.edu.cn (Keke Tang)
+
   </p>
 </div>
 
@@ -36,8 +41,8 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-An insight is that metamaterials derive their novel mechanical properties from their unique architectures. Recent studies show adding disorder can expand the design space, but designing such structures for target nonlinear responses presents a major challenge, primarily in ensuring structural connectivity. This study introduces a data-driven framework to solve this problem, which pairs a generative autoregressive model for inverse design with a surrogate model for rapid forward prediction. The autoregressive model learns implicit connectivity rules from a large dataset and sequentially builds valid structures guided by a performance target. This method is demonstrated to successfully design disordered metamaterials with complex nonlinear properties on demand. An analysis of the model’s internal mechanism reveals its learned strategies for maintaining connectivity while approaching the target. This process involves a critical trade-off between design performance and structural integrity, which is controllable within this framework. The resulting method shows strong capabilities in both interpolation and extrapolation, generating novel designs that outperform examples from the training data. Overall, this work bridges the design of disordered metamaterials with the achievement of tailored nonlinear responses, opening a new path for creating high-performance functional materials. </br>
-**Keywords:** Disordered Metamaterials, Autoregressive Model, Inverse Design, Nonlinear Response, Data-Driven Design, Deep Learning
+The pursuit of novel mechanical metamaterials faces a core dilemma: while introducing architectural disorder unlocks unprecedented design space, it jeopardizes the structural connectivity essential for mechanical integrity. We introduce a data-driven framework to resolve this critical trade-off in programming nonlinear responses. Our approach pairs a generative autoregressive model for inverse design with a surrogate model for rapid forward prediction. The autoregressive model learns implicit connectivity rules from data to sequentially build valid structures targeting specific performances. We demonstrate that this method successfully designs disordered metamaterials with target nonlinear properties on demand. Analysis of the model's internal mechanism reveals its learned strategies for maintaining connectivity, highlighting a critical yet controllable trade-off between performance and integrity. The framework exhibits strong interpolation and extrapolation capabilities, generating novel designs that outperform those in the training set. By providing a powerful and generalizable design tool, this work establishes a pathway to reliably meet complex functional requirements with disordered metamaterials, moving them from conceptual appeal toward practical viability.  </br>
+**Keywords:** Mechanical Metamaterials, Architectural Disorder, Structural Connectivity, Autoregressive Model, Inverse Design, Nonlinear Response, Data-Driven Design
 
 
 
@@ -90,14 +95,14 @@ For forward predicting the nonlinear response from certain structures, run this 
 ## Citation
 If you find our work helpful for you, plz cite and have a star for us! :blush:
 ```bibtex
-@inproceedings{zhao2025ardisorder,
-  title={Towards Autoregressive Inverse Design of Disordered Metamaterials for Target Nonlinear Response},
-  author={Zhao, Dazhi and Xiang, Yujie and Zhang, Peng and Tang, Keke},
+@article{zhao2025ardisorder,
+  title={Autoregressive Inverse Design of Disordered Metamaterials for Target Nonlinear Response},
+  author={Zhao, Dazhi and Xiang, Yujie and Zhang, Peng and Liu, Ning and Wang, Xianqiao and Tang, Keke},
   booktitle={arXiv},
   year={2025}
 }
 ```
-## Compute Reporting
+## Computing Resource Report
 We report that all training and inference procedures for both models were conducted on a single NVIDIA RTX 4090 (24GB) GPU with the platform [Openbayes](https://openbayes.com/).
 
 ## License
