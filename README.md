@@ -26,10 +26,10 @@
   <h1 align="center">Autoregressive Inverse Design of Disordered Metamaterials for Target Nonlinear Response</h1>
 
   <p align="center">
-    Dazhi Zhao<sup>1</sup>, Yujie Xiang<sup>1</sup>, Peng Zhang<sup>1</sup>, Ning Liu<sup>1</sup>, Xianqiao Wang<sup>3</sup>, Keke Tang<sup>1,2*</sup> </br>
+    Dazhi Zhao<sup>1</sup>, Yujie Xiang<sup>1</sup>, Peng Zhang<sup>1</sup>, Ning Liu<sup>1</sup>, Xianqiao Wang<sup>2</sup>, Keke Tang<sup>1,3*</sup> </br>
 <sup>1</sup><em>School of Aerospace Engineering and Applied Mechanics, Tongji University, Shanghai 200092, China</em> </br>
-<sup>2</sup><em>Key Laboratory of AI-aided Airworthiness of Civil Aircraft Structures, Civil Aviation Administration of China, Tongji University, Shanghai 200092, China</em> </br>
-<sup>3</sup><em>School of ECAM, College of Engineering, University of Georgia, Athens, GA 30602, USA</em> </br>
+<sup>2</sup><em>School of ECAM, College of Engineering, University of Georgia, Athens, GA 30602, USA</em> </br>
+<sup>3</sup><em>Key Laboratory of AI-aided Airworthiness of Civil Aircraft Structures, Civil Aviation Administration of China, Tongji University, Shanghai 200092, China</em> </br>
 <sup>*</sup>Corresponding author: <a href="mailto:kktang@tongji.edu.cn">kktang@tongji.edu.cn</a> (Keke Tang)
 
   </p>
@@ -41,8 +41,8 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-The pursuit of novel mechanical metamaterials faces a core dilemma: while introducing architectural disorder unlocks unprecedented design space, it jeopardizes the structural connectivity essential for mechanical integrity. We introduce a data-driven framework to resolve this critical trade-off in programming nonlinear responses. Our approach pairs a generative autoregressive model for inverse design with a surrogate model for rapid forward prediction. The autoregressive model learns implicit connectivity rules from data to sequentially build valid structures targeting specific performances. We demonstrate that this method successfully designs disordered metamaterials with target nonlinear properties on demand. Analysis of the model's internal mechanism reveals its learned strategies for maintaining connectivity, highlighting a critical yet controllable trade-off between performance and integrity. The framework exhibits strong interpolation and extrapolation capabilities, generating novel designs that outperform those in the training set. By providing a powerful and generalizable design tool, this work establishes a pathway to reliably meet complex functional requirements with disordered metamaterials, moving them from conceptual appeal toward practical viability.  </br>
-**Keywords:** Mechanical Metamaterials, Architectural Disorder, Structural Connectivity, Autoregressive Model, Inverse Design, Nonlinear Response, Data-Driven Design
+The pursuit of novel mechanical metamaterials faces a core dilemma: while introducing architectural disorder unlocks unprecedented design space, it jeopardizes the structural connectivity essential for mechanical integrity. We introduce a data-driven framework to resolve this critical trade-off in programming nonlinear responses. Our approach pairs a generative autoregressive model for inverse design with a surrogate model for rapid forward prediction. The autoregressive model learns implicit connectivity rules from data to sequentially build valid structures targeting specific performances. We demonstrate that this method successfully designs disordered metamaterials with target nonlinear properties on demand. Analysis of the model's internal mechanism reveals its learned strategies for maintaining connectivity, highlighting a critical yet controllable trade-off between performance and connectivity. The framework exhibits strong interpolation and extrapolation capabilities, generating novel designs that outperform those in the training set. By providing a powerful and generalizable design tool, this work establishes a pathway to reliably meet complex functional requirements with disordered metamaterials, moving them from conceptual appeal toward practical viability.  </br>
+**Keywords:**  Data-Driven Design, Disordered Metamaterials, Structural Connectivity, Autoregressive Model, Inverse Design, Nonlinear Response 
 
 
 
