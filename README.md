@@ -98,7 +98,7 @@ If you find our work helpful for you, plz cite and have a star for us! :blush:
 @article{zhao2025ardisorder,
   title={Autoregressive Inverse Design of Disordered Metamaterials for Target Nonlinear Response},
   author={Zhao, Dazhi and Xiang, Yujie and Zhang, Peng and Liu, Ning and Wang, Xianqiao and Tang, Keke},
-  booktitle={arXiv},
+  booktitle={Thin-Walled Structures},
   year={2025}
 }
 ```
